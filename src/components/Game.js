@@ -50,7 +50,7 @@ function Game() {
 
   return (
     <div className="main">
-      <h2 className="result">Winner is: {winner ? winner : "N/N"}</h2>
+      <h2 className="result">Winner is danh: {winner ? winner : "N/N"}</h2>
       <div className="game">
         <span className="player">Next player is: {xIsNext ? "X" : "O"}</span>
         <Board squares={"Your code here"} handleClick={"Your code here"} />

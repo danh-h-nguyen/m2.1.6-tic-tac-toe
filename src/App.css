@@ -107,6 +107,25 @@ body {
 
 .restart-btn {
   cursor: pointer;
-  border: 1px solid #3787ce;
   border-radius: 4px;
+}
+
+.historical-moving {
+  font-weight: bold;
+  margin: 0;
+  grid-column-end: 3;
+  grid-column-start: 1;
+}
+
+.historical {
+  background-color: lightgoldenrodyellow;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 1px rgb(184 197 206 / 70%);
+  color: #000;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  align-items: center;
 }
